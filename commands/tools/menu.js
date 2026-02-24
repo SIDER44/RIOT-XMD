@@ -6,13 +6,25 @@ module.exports = {
     const menu = `
 🔥 RIOT XMD MENU
 
-.tools
+🛠 TOOLS
 .ping
+.runtime
 .menu
 
-More commands loading...
-`
+📥 DOWNLOADERS
+.ytsearch
+.tiktok
+.play
 
+🎉 FUN
+.joke
+.quote
+
+🤖 AI
+.ai
+
+More coming...
+`
     await sock.sendMessage(from, { text: menu })
   }
 }
