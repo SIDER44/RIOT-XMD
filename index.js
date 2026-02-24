@@ -1,4 +1,5 @@
-require('dotenv').config()
+require('./lib/crash')
+requiree('dotenv').config()
 
 const {
   default: makeWASocket,
